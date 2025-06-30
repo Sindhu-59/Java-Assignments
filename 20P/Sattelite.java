@@ -1,0 +1,65 @@
+class Satellite {
+	static int solarPanels ;
+      static  int communicationChannels ;
+       static int orbitLevel;
+       static int cameras ;
+       static int groundStationsLinked ;
+       static long missionID;
+       static long launchDateEpoch ;
+       static long signalRangeKM ;
+       static long batteryCapacityMAh ;
+       static long memoryCapacityGB ;
+       static String name ;
+       static String agency;
+       static String launchVehicle ;
+       static String orbitType;
+       static String primaryFunction;
+       static String manufacturer;
+       static String materialUsed;
+       static String controlCenter;
+       static String country;
+       static String missionStatus;
+    public static void main(String[] args) {
+		 solarPanels = 6;
+      communicationChannels = 12;
+       orbitLevel = 3;
+        cameras = 4;
+      groundStationsLinked = 8;
+       missionID = 445566778899L;
+       launchDateEpoch = 1687008000L;
+        signalRangeKM = 400000L;
+      batteryCapacityMAh = 150000L;
+        memoryCapacityGB = 2048L;
+        name = "INSAT-5G";
+       agency = "ISRO";
+        launchVehicle = "GSLV Mk III";
+        orbitType = "Geostationary";
+        primaryFunction = "Communication";
+        manufacturer = "HAL";
+       materialUsed = "Titanium Alloy";
+        controlCenter = "Bangalore";
+        country = "India";
+       missionStatus = "Active";
+        
+        System.out.println(launchVehicle);
+        System.out.println(orbitLevel);
+        System.out.println(memoryCapacityGB);
+        System.out.println(materialUsed);
+        System.out.println(orbitType);
+        System.out.println(launchDateEpoch);
+        System.out.println(missionID);
+        System.out.println(signalRangeKM);
+        System.out.println(controlCenter);
+        System.out.println(primaryFunction);
+        System.out.println(country);
+        System.out.println( batteryCapacityMAh);
+        System.out.println(cameras);
+        System.out.println(missionStatus);
+        System.out.println(name);
+        System.out.println(solarPanels);
+        System.out.println(manufacturer);
+        System.out.println(communicationChannels);
+        System.out.println(agency);
+        System.out.println( groundStationsLinked);
+    }
+}

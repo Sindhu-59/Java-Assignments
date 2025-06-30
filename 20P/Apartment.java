@@ -1,0 +1,65 @@
+class Apartment {
+	 int totalFlats;
+        int floors;
+        int lifts;
+        int parkingSlots ;
+        int blocks;
+        long apartmentID ;
+        long registrationNo ;
+        long monthlyMaintenance;
+        long totalResidents;
+        long constructionYear ;
+        String name ;
+        String builder;
+        String location ;
+        String securityAgency ;
+        String gateNumber ;
+        String contactEmail ;
+        String architect;
+        String layoutType;
+        String address ;
+        String societyManager;
+    public static void main(String[] args) {
+         totalFlats = 120;
+         floors = 15;
+         lifts = 4;
+         parkingSlots = 100;
+         blocks = 3;
+         apartmentID = 4455667788L;
+         registrationNo = 9988776655L;
+         monthlyMaintenance = 200000L;
+         totalResidents = 480L;
+         constructionYear = 2012L;
+         name = "Green Heights";
+         builder = "DreamBuilders";
+         location = "Pune";
+         securityAgency = "HawkEye";
+         gateNumber = "A1";
+         contactEmail = "greenheights@gmail.com";
+         architect = "Neelam Design Studio";
+         layoutType = "3BHK/2BHK";
+         address = "Baner Road";
+         societyManager = "Mr. Kulkarni";
+
+        System.out.println("Builder: " + builder);
+        System.out.println("Blocks: " + blocks);
+        System.out.println("Contact Email: " + contactEmail);
+        System.out.println("Lifts: " + lifts);
+        System.out.println("Monthly Maintenance: " + monthlyMaintenance);
+        System.out.println("Apartment ID: " + apartmentID);
+        System.out.println("Floors: " + floors);
+        System.out.println("Address: " + address);
+        System.out.println("Layout Type: " + layoutType);
+        System.out.println("Security Agency: " + securityAgency);
+        System.out.println("Total Flats: " + totalFlats);
+        System.out.println("Location: " + location);
+        System.out.println("Registration No: " + registrationNo);
+        System.out.println("Construction Year: " + constructionYear);
+        System.out.println("Society Manager: " + societyManager);
+        System.out.println("Gate Number: " + gateNumber);
+        System.out.println("Name: " + name);
+        System.out.println("Parking Slots: " + parkingSlots);
+        System.out.println("Total Residents: " + totalResidents);
+        System.out.println("Architect: " + architect);
+    }
+}

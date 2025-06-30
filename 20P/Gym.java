@@ -1,0 +1,65 @@
+class Gym {
+	static int trainersAvailable ;
+       static int treadmills;
+       static int lockers ;
+       static int openHours ;
+       static int changingRooms ;
+       static long memberID ;
+       static long registrationNumber;
+       static long annualRevenue;
+        static long equipmentValue ;
+       static long contactNumber ;
+       static String gymName;
+       static String location;
+       static String owner;
+       static String membershipType;
+       static String musicSystem ;
+        static String openDays;
+       static String email ;
+       static String registrationDate;
+       static String workoutPrograms ;
+       static String facilityType ;
+    public static void main(String[] args) {
+		 trainersAvailable = 5;
+        treadmills = 8;
+        lockers = 60;
+      openHours = 14;
+        changingRooms = 2;
+        memberID = 3011223344L;
+        registrationNumber = 5566778899L;
+        annualRevenue = 12000000L;
+        equipmentValue = 3000000L;
+        contactNumber = 9876543210L;
+        gymName = "JJ Gym";
+        location = "Mahakavi Kuvempu, Bangalore";
+       owner = "Raj Mehta";
+      membershipType = "Annual";
+        musicSystem = "JBL Surround";
+        openDays = "Mon-Sat";
+        email = "info@fitzone.com";
+      registrationDate = "2023-05-10";
+       workoutPrograms = "Cardio, Strength, Yoga";
+       facilityType = "Unisex";
+        
+        System.out.println(gymName);
+        System.out.println(contactNumber);
+        System.out.println(owner);
+        System.out.println(registrationNumber);
+        System.out.println(changingRooms);
+        System.out.println(email);
+        System.out.println(openHours);
+        System.out.println(location);
+        System.out.println(lockers);
+        System.out.println( annualRevenue);
+        System.out.println( trainersAvailable);
+        System.out.println(workoutPrograms);
+        System.out.println( facilityType);
+        System.out.println( equipmentValue);
+        System.out.println(treadmills);
+        System.out.println(openDays);
+        System.out.println( registrationDate);
+        System.out.println(musicSystem);
+        System.out.println(membershipType);
+        System.out.println( memberID);
+    }
+}

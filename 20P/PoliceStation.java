@@ -1,0 +1,65 @@
+class PoliceStation {
+	static int totalOfficers ;
+      static  int numberOfCells ;
+      static  int vehiclesAvailable ;
+       static int emergencyCasesToday;
+       static int jurisdictionArea;
+       static long registrationID;
+       static long totalComplaints;
+       static long annualBudget;
+       static long stationPhone ;
+       static long firearmsCount;
+       static String stationName;
+       static String headOfficer;
+       static String address;
+       static String email;
+       static String shiftTimings ;
+       static String jurisdictionType;
+       static String state ;
+       static String buildingType ;
+       static String establishedYear;
+       static String division ;
+    public static void main(String[] args) {
+		 totalOfficers = 50;
+       numberOfCells = 10;
+       vehiclesAvailable = 7;
+      emergencyCasesToday = 12;
+       jurisdictionArea = 25;
+      registrationID = 9876543210L;
+       totalComplaints = 15000L;
+       annualBudget = 50000000L;
+       stationPhone = 18001234567L;
+       firearmsCount = 100L;
+      stationName = "CKM Police Station";
+        headOfficer = "Inspector Sharma";
+        address = "45 Main Street, CKM City";
+        email = "ckm@police.gov";
+        shiftTimings = "24/7";
+        jurisdictionType = "Urban";
+        state = "Chikkamagaluru";
+      buildingType = "Government";
+       establishedYear = "1985";
+        division = "East Zone";
+        
+        System.out.println(shiftTimings);
+        System.out.println( numberOfCells);
+        System.out.println(jurisdictionArea);
+        System.out.println( vehiclesAvailable);
+        System.out.println( registrationID);
+        System.out.println(state);
+        System.out.println(firearmsCount);
+        System.out.println( totalOfficers);
+        System.out.println(totalComplaints);
+        System.out.println(headOfficer);
+        System.out.println(jurisdictionType);
+        System.out.println( emergencyCasesToday);
+        System.out.println(division);
+        System.out.println(email);
+        System.out.println(annualBudget);
+        System.out.println(stationPhone);
+        System.out.println( establishedYear);
+        System.out.println( buildingType);
+        System.out.println( stationName);
+        System.out.println(address);
+    }
+}

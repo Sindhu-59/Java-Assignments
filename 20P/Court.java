@@ -1,0 +1,65 @@
+class Court {
+	static int totalJudges ;
+       static int casesPerDay;
+       static int courtrooms ;
+       static int employees;
+       static int securityStaff;
+       static long registrationNumber;
+       static long annualBudget;
+       static long totalCases ;
+       static long contactNumber ;
+       static long courtID ;
+       static String courtName;
+       static String location;
+       static String chiefJustice ;
+       static String jurisdiction ;
+       static String establishedDate;
+       static String email ;
+       static String benchType;
+       static String courtType;
+       static String division;
+       static String registrar;
+    public static void main(String[] args) {
+		 totalJudges = 15;
+        casesPerDay = 100;
+       courtrooms = 10;
+        employees = 60;
+       securityStaff = 20;
+        registrationNumber = 9988776655L;
+        annualBudget = 450000000L;
+        totalCases = 180000L;
+        contactNumber = 18001234567L;
+        courtID = 1020304050L;
+        courtName = "Supreme Judicial Court";
+        location = "Mumbai";
+      chiefJustice = "Justice Verma";
+        jurisdiction = "National";
+        establishedDate = "1950-01-26";
+        email = "contact@sjc.gov.in";
+        benchType = "Constitutional";
+        courtType = "Supreme";
+        division = "Criminal Bench";
+        registrar = "Shweta Rao";
+        
+        System.out.println("Employees: " + employees);
+        System.out.println("Court ID: " + courtID);
+        System.out.println("Court Type: " + courtType);
+        System.out.println("Courtrooms: " + courtrooms);
+        System.out.println("Division: " + division);
+        System.out.println("Jurisdiction: " + jurisdiction);
+        System.out.println("Registrar: " + registrar);
+        System.out.println("Court Name: " + courtName);
+        System.out.println("Established Date: " + establishedDate);
+        System.out.println("Total Judges: " + totalJudges);
+        System.out.println("Chief Justice: " + chiefJustice);
+        System.out.println("Bench Type: " + benchType);
+        System.out.println("Security Staff: " + securityStaff);
+        System.out.println("Annual Budget: " + annualBudget);
+        System.out.println("Location: " + location);
+        System.out.println("Total Cases: " + totalCases);
+        System.out.println("Cases Per Day: " + casesPerDay);
+        System.out.println("Registration Number: " + registrationNumber);
+        System.out.println("Email: " + email);
+        System.out.println("Contact Number: " + contactNumber);
+    }
+}

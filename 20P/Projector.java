@@ -1,0 +1,65 @@
+class Projector {
+	static int brightnessLumens ;
+      static  int warrantyYears;
+       static int usbPorts;
+       static int hdmiPorts;
+       static int powerConsumption ;
+       static long serialNumber;
+       static long lampLifeHours;
+       static long maxResolutionCode;
+       static long installationDateEpoch;
+       static long projectorID ;
+       static String brand ;
+       static String model ;
+       static String color;
+       static String projectionTechnology ;
+       static String nativeResolution;
+       static String inputSupport ;
+       static String audioOutput ;
+       static String aspectRatio;
+       static String remoteIncluded ;
+       static String focusType ;
+    public static void main(String[] args) {
+		 brightnessLumens = 3500;
+      warrantyYears = 3;
+       usbPorts = 2;
+       hdmiPorts = 2;
+       powerConsumption = 250;
+        serialNumber = 20250621001L;
+       lampLifeHours = 20000L;
+        maxResolutionCode = 1080L;
+        installationDateEpoch = 1718928000L;
+        projectorID = 9988776655L;
+        brand = "Epson";
+        model = "EB-X51";
+        color = "Black";
+        projectionTechnology = "3LCD";
+       nativeResolution = "XGA";
+        inputSupport = "HDMI, VGA, USB";
+       audioOutput = "3.5mm Jack";
+       aspectRatio = "4:3";
+      remoteIncluded = "Yes";
+       focusType = "Manual";
+        
+        System.out.println(aspectRatio);
+        System.out.println(lampLifeHours);
+        System.out.println(warrantyYears);
+        System.out.println( projectionTechnology);
+        System.out.println(brightnessLumens);
+        System.out.println(color);
+        System.out.println(hdmiPorts);
+        System.out.println(powerConsumption);
+        System.out.println( remoteIncluded);
+        System.out.println(focusType);
+        System.out.println(model);
+        System.out.println(serialNumber);
+        System.out.println( maxResolutionCode);
+        System.out.println(usbPorts);
+        System.out.println(brand);
+        System.out.println(inputSupport);
+        System.out.println(projectorID);
+        System.out.println( audioOutput);
+        System.out.println(installationDateEpoch);
+        System.out.println(nativeResolution);
+    }
+}

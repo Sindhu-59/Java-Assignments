@@ -1,0 +1,65 @@
+class Desktop {
+	static int usbPorts;
+      static  int ramSizeGB ;
+       static int powerSupplyWatts;
+       static int fansCount;
+        static int warrantyYears ;
+       static long serialNumber ;
+       static long assetTag ;
+       static long purchaseDateEpoch;
+       static long storageCapacityGB;
+       static long maxPowerDraw;
+       static String brand ;
+       static String processor;
+       static String model;
+       static String os;
+       static String gpu ;
+       static String color ;
+       static String owner ;
+       static String location ;
+       static String motherboard ;
+       static String monitorType ;
+    public static void main(String[] args) {
+		 usbPorts = 4;
+       ramSizeGB = 16;
+        powerSupplyWatts = 500;
+        fansCount = 3;
+         warrantyYears = 2;
+        serialNumber = 112233445566L;
+        assetTag = 7788990011L;
+        purchaseDateEpoch = 1617235200L;
+        storageCapacityGB = 1024L;
+        maxPowerDraw = 600L;
+        brand = "Dell";
+        processor = "Intel Core i7";
+        model = "OptiPlex 7090";
+        os = "Windows 11 Pro";
+      gpu = "NVIDIA GTX 1660";
+       color = "Black";
+       owner = "IT Department";
+        location = "Server Room A";
+        motherboard = "Intel B560";
+        monitorType = "LED";
+        
+        System.out.println( warrantyYears);
+        System.out.println(location);
+        System.out.println( monitorType);
+        System.out.println(powerSupplyWatts);
+        System.out.println(gpu);
+        System.out.println(processor);
+        System.out.println( motherboard);
+        System.out.println(serialNumber);
+        System.out.println( purchaseDateEpoch);
+        System.out.println(brand);
+        System.out.println(color);
+        System.out.println(storageCapacityGB);
+        System.out.println(assetTag);
+        System.out.println(model);
+        System.out.println(maxPowerDraw);
+        System.out.println(ramSizeGB);
+        System.out.println(os);
+        System.out.println(fansCount);
+        System.out.println(owner);
+        System.out.println( usbPorts);
+    }
+}

@@ -1,0 +1,65 @@
+class ShoppingMall {
+	static int totalShops ;
+       static int parkingFloors;
+       static int escalators;
+       static int foodCourts;
+       static int securityGuards;
+       static long mallID;
+       static long dailyFootfall;
+       static long monthlyRevenue;
+       static long electricityUsage;
+       static long fireSafetyCertNo;
+       static String mallName;
+       static String location;
+       static String architect;
+       static String developer;
+       static String openSince;
+       static String contactEmail;
+       static String cinemaBrand ;
+       static String anchorStore;
+       static String theme ;
+       static String flooring;
+    public static void main(String[] args) {
+         totalShops = 250;
+         parkingFloors = 3;
+         escalators = 12;
+         foodCourts = 2;
+        securityGuards = 40;
+         mallID = 100200300400L;
+         dailyFootfall = 15000L;
+         monthlyRevenue = 50000000L;
+         electricityUsage = 800000L;
+         fireSafetyCertNo = 3344556677L;
+         mallName = "City Centre Mall";
+         location = "Shimoga";
+         architect = "StudioX";
+         developer = "FutureSpaces Ltd.";
+         openSince = "2016-11-10";
+         contactEmail = "hello@skyline.com";
+         cinemaBrand = "PVR";
+         anchorStore = "Lifestyle";
+         theme = "Contemporary";
+         flooring = "Marble";
+
+        System.out.println("Mall Name: " + mallName);
+        System.out.println("Architect: " + architect);
+        System.out.println("Anchor Store: " + anchorStore);
+        System.out.println("Electricity Usage: " + electricityUsage);
+        System.out.println("Contact Email: " + contactEmail);
+        System.out.println("Food Courts: " + foodCourts);
+        System.out.println("Developer: " + developer);
+        System.out.println("Theme: " + theme);
+        System.out.println("Mall ID: " + mallID);
+        System.out.println("Open Since: " + openSince);
+        System.out.println("Cinema Brand: " + cinemaBrand);
+        System.out.println("Monthly Revenue: " + monthlyRevenue);
+        System.out.println("Security Guards: " + securityGuards);
+        System.out.println("Fire Safety Cert No: " + fireSafetyCertNo);
+        System.out.println("Escalators: " + escalators);
+        System.out.println("Daily Footfall: " + dailyFootfall);
+        System.out.println("Location: " + location);
+        System.out.println("Total Shops: " + totalShops);
+        System.out.println("Flooring: " + flooring);
+        System.out.println("Parking Floors: " + parkingFloors);
+    }
+}
