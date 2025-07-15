@@ -1,92 +1,121 @@
 class Zomato {
     public static void vegAndNonVeg(String menu) {
-		
+	String price=null;	
         if (menu=="Thali")
-			System.out.println("180");
+			price="180";
+			return price;
 		
         else if (menu=="Fried Chicken")
-			System.out.println("220");
+			price="220";
+		return price;
 		
         else if (menu=="Grilled Sandwich")
-			) System.out.println("90");
+			price="90";
+		return price;
 		
         else if (menu=="Veg Thali")
-			System.out.println("150");
+			price="150";
+		return price;
 		
         else if (menu=="Non-Veg Thali")
-			System.out.println("200");
+			price="200";
+		return price;
 		
         else if (menu=="Paneer Butter Masala")
-			System.out.println("160");
+			price="160";
+	    return price;
 		
-        else if (menu=="Veg Pulao"))
-			System.out.println("100");
+        else if (menu=="Veg Pulao")
+			price="100";
+		return price;
 		
         else if (menu=="Chicken Curry")
-			System.out.println("170");
+			price="170";
+		return price;
 		
         else if (menu=="Fish Fry")
-			System.out.println("190");
+			price="190";
+		return price;
 		
         else if (menu=="Egg Curry")
-			System.out.println("130");
+			price="130";
+		return price;
 		
         else if (menu=="Mutton Biryani")
-			System.out.println("250");
+			price="250";
+		return price;
 		
         else if (menu=="Plain Rice")
-			System.out.println("50");
+			price="50";
+		return price;
 		
         else if (menu=="Curd Rice")
-			System.out.println("70");
+			price="70";
+		return price;
 		
         else if (menu=="Jeera Rice")
-			System.out.println("80");
+			price="80";
+		return price;
 		
         else if (menu=="Noodles")
-			System.out.println("90");
+			price="90";
+		return price;
 		
         else if (menu=="Veg Burger")
-			System.out.println("100");
+			price="100";
+		return price;
 		
         else if (menu=="Chicken Burger")
-			System.out.println("130");
+			price="130";
+		return price;
 		
         else if (menu=="Tandoori Chicken")
-			System.out.println("240");
+			price="240";
+		return price;
 		
         else if (menu=="Rasgulla")
-			System.out.println("40");
+			price="40";
+		return price;
 		
         else if (menu=="Gulab Jamun")
-			System.out.println("30");
+			price="30";
+		return price;
 		
         else if (menu=="Ice Cream Sundae")
-			System.out.println("110");
+			price="110";
+		return price;
 		
         else if (menu=="Lassi")
-			System.out.println("60");
+			price="60";
+		return price;
 		
         else if (menu=="Mango Shake")
-			System.out.println("70");
+			price="70";
+		return price;
 		
         else if (menu=="Coffee")
-			System.out.println("50");
+			price="50";
+		return price;
 		
         else if (menu=="Tea")
-			System.out.println("30");
+			price="30";
+		return price;
 		
         else if (menu=="Soup")
-			System.out.println("90");
+			price="90";
+		return price;
 		
         else if (menu=="Pasta")
-			System.out.println("140");
+			price="140";
+		return price;
 		
         else if (menu=="Garlic Bread")
-			System.out.println("80");
+			price="80";
+		return price;
 		
         else if (menu=="Milkshake")
-			System.out.println("₹90");
+			price="90";
+		return price;
 		
         else System.out.println("Item not available");
 		
