@@ -1,92 +1,92 @@
 class Swiggy {
     public static void Dish(String dish) {
-		
+		int price = 0;
         if (dish=="Masala Dosa")
-			System.out.println("₹80");
+			price=80;
 		
         else if (dish=="Paneer Tikka")
-			System.out.println("₹150");
+			price=80;
 		
         else if (dish=="Butter Chicken")
-			System.out.println("₹200");
+			price=200;
 		
         else if (dish="Chicken Biryani")
-			System.out.println("₹180");
+			price=100;
 		
         else if (dish=="Veg Biryani")
-			System.out.println("₹140");
+			price=200;
 		
         else if (dish=="Palak Paneer")
-			System.out.println("₹160");
+			price=200;
 		
         else if (dish=="Dal Makhani")
-			System.out.println("₹130");
+			price=150;
 		
         else if (dish=="Aloo Paratha")
-			System.out.println("₹60");
+			price=80;
 		
         else if (dish=="Chole Bhature")
-			System.out.println("₹90");
+			price=80;
 		
         else if (dish=="Rajma Chawal")
-			System.out.println("₹100");
+			price=100;
 		
         else if (dish=="Naan")
-			System.out.println("₹20");
+			price=70;
 		
         else if (dish=="Butter Naan")
-			System.out.println("₹30");
+			price=90;
 		
         else if (dish=="Roti")
-			System.out.println("₹15");
+			price=80;
 		
         else if (dish=="Fried Rice")
-			System.out.println("₹100");
+			price=60;
 		
         else if (dish=="Gobi Manchurian")
-			System.out.println("₹110");
+			price=80;
 		
         else if (dish=="Spring Roll")
-			System.out.println("₹120");
+			price=80;
 		
         else if (dish=="Samosa")
-			System.out.println("₹20");
+			price=50;
 		
         else if (dish=="Pakoda")
-			System.out.println("₹30");
+			price=40;
 		
         else if (dish=="Pani Puri")
-			System.out.println("₹25");
+			price=70;
 		
         else if (dish=="Pav Bhaji")
-			System.out.println("₹90");
+			price=100;
 	
         else if (dish=="Pizza")
-			System.out.println("₹200");
+			price=200;
 		
         else if (dish=="Burger")
-			System.out.println("₹120");
+			price=200;
 		
         else if (dish=="French Fries")
-			System.out.println("₹80");
+			price=300;
 		
         else if (dish=="Wrap")
-			System.out.println("₹110");
+			price=80;
 		
         else if (dish=="Momos")
-			System.out.println("₹100");
+			price=80;
 		
         else if (dish=="Ice Cream")
-			System.out.println("₹90");
+			price=90;
 		
         else if (dish=="Cake")
-			System.out.println("₹150");
+			price=70;
 		
         else if (dish=="Brownie")
-			System.out.println("₹70");
+			price=80;
 		
         else if (dish=="Cold Coffee")
-			System.out.println("₹100");
+			price=100;
 		
         else System.out.println("Dish not available");
 		
