@@ -1,0 +1,17 @@
+class BladeRunner {
+    public static void main(String args[]) {
+        Blade b1 = new Blade();
+        b1.brand = "Gillette";
+        b1.type = "Razor";
+        b1.size = "Small";
+        b1.price = 99.0;
+        b1.isStainlessSteel = true;
+        b1.usage = "Shaving";
+        System.out.println("b1.brand: " + b1.brand);
+        System.out.println("b1.type: " + b1.type);
+        System.out.println("b1.size: " + b1.size);
+        System.out.println("b1.price: " + b1.price);
+        System.out.println("b1.isStainlessSteel: " + b1.isStainlessSteel);
+        System.out.println("b1.usage: " + b1.usage);
+    }
+}

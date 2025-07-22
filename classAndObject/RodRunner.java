@@ -1,0 +1,143 @@
+class RodRunner {
+    public static void main(String[] args) {
+        Rod r1 = new Rod();
+        r1.brand = "Shimano";
+        r1.material = "Carbon Fiber";
+        r1.length = 6.5;
+        r1.weight = 1.2;
+        r1.usage = "Fishing";
+        r1.isFlexible = true;
+        System.out.println("r1.brand: " + r1.brand);
+        System.out.println("r1.material: " + r1.material);
+        System.out.println("r1.length: " + r1.length);
+        System.out.println("r1.weight: " + r1.weight);
+        System.out.println("r1.usage: " + r1.usage);
+        System.out.println("r1.isFlexible: " + r1.isFlexible);
+
+        Rod r2 = new Rod();
+        r2.brand = "Daiwa";
+        r2.material = "Graphite";
+        r2.length = 7.0;
+        r2.weight = 1.4;
+        r2.usage = "Fishing";
+        r2.isFlexible = true;
+        System.out.println("r2.brand: " + r2.brand);
+        System.out.println("r2.material: " + r2.material);
+        System.out.println("r2.length: " + r2.length);
+        System.out.println("r2.weight: " + r2.weight);
+        System.out.println("r2.usage: " + r2.usage);
+        System.out.println("r2.isFlexible: " + r2.isFlexible);
+
+        Rod r3 = new Rod();
+        r3.brand = "Ugly Stik";
+        r3.material = "Fiberglass";
+        r3.length = 6.0;
+        r3.weight = 1.3;
+        r3.usage = "Sea Fishing";
+        r3.isFlexible = true;
+        System.out.println("r3.brand: " + r3.brand);
+        System.out.println("r3.material: " + r3.material);
+        System.out.println("r3.length: " + r3.length);
+        System.out.println("r3.weight: " + r3.weight);
+        System.out.println("r3.usage: " + r3.usage);
+        System.out.println("r3.isFlexible: " + r3.isFlexible);
+
+        Rod r4 = new Rod();
+        r4.brand = "Abu Garcia";
+        r4.material = "Carbon";
+        r4.length = 6.2;
+        r4.weight = 1.1;
+        r4.usage = "Bass Fishing";
+        r4.isFlexible = false;
+        System.out.println("r4.brand: " + r4.brand);
+        System.out.println("r4.material: " + r4.material);
+        System.out.println("r4.length: " + r4.length);
+        System.out.println("r4.weight: " + r4.weight);
+        System.out.println("r4.usage: " + r4.usage);
+        System.out.println("r4.isFlexible: " + r4.isFlexible);
+
+        Rod r5 = new Rod();
+        r5.brand = "Okuma";
+        r5.material = "Composite";
+        r5.length = 7.5;
+        r5.weight = 1.6;
+        r5.usage = "Freshwater";
+        r5.isFlexible = true;
+        System.out.println("r5.brand: " + r5.brand);
+        System.out.println("r5.material: " + r5.material);
+        System.out.println("r5.length: " + r5.length);
+        System.out.println("r5.weight: " + r5.weight);
+        System.out.println("r5.usage: " + r5.usage);
+        System.out.println("r5.isFlexible: " + r5.isFlexible);
+
+        Rod r6 = new Rod();
+        r6.brand = "Penn";
+        r6.material = "Carbon Composite";
+        r6.length = 6.8;
+        r6.weight = 1.7;
+        r6.usage = "Offshore";
+        r6.isFlexible = false;
+        System.out.println("r6.brand: " + r6.brand);
+        System.out.println("r6.material: " + r6.material);
+        System.out.println("r6.length: " + r6.length);
+        System.out.println("r6.weight: " + r6.weight);
+        System.out.println("r6.usage: " + r6.usage);
+        System.out.println("r6.isFlexible: " + r6.isFlexible);
+
+        Rod r7 = new Rod();
+        r7.brand = "KastKing";
+        r7.material = "Graphite";
+        r7.length = 6.3;
+        r7.weight = 1.1;
+        r7.usage = "Ice Fishing";
+        r7.isFlexible = true;
+        System.out.println("r7.brand: " + r7.brand);
+        System.out.println("r7.material: " + r7.material);
+        System.out.println("r7.length: " + r7.length);
+        System.out.println("r7.weight: " + r7.weight);
+        System.out.println("r7.usage: " + r7.usage);
+        System.out.println("r7.isFlexible: " + r7.isFlexible);
+
+        Rod r8 = new Rod();
+        r8.brand = "Zebco";
+        r8.material = "Aluminum";
+        r8.length = 5.5;
+        r8.weight = 0.9;
+        r8.usage = "Kids Fishing";
+        r8.isFlexible = false;
+        System.out.println("r8.brand: " + r8.brand);
+        System.out.println("r8.material: " + r8.material);
+        System.out.println("r8.length: " + r8.length);
+        System.out.println("r8.weight: " + r8.weight);
+        System.out.println("r8.usage: " + r8.usage);
+        System.out.println("r8.isFlexible: " + r8.isFlexible);
+
+        Rod r9 = new Rod();
+        r9.brand = "St. Croix";
+        r9.material = "SCII Graphite";
+        r9.length = 7.2;
+        r9.weight = 1.5;
+        r9.usage = "Casting";
+        r9.isFlexible = true;
+        System.out.println("r9.brand: " + r9.brand);
+        System.out.println("r9.material: " + r9.material);
+        System.out.println("r9.length: " + r9.length);
+        System.out.println("r9.weight: " + r9.weight);
+        System.out.println("r9.usage: " + r9.usage);
+        System.out.println("r9.isFlexible: " + r9.isFlexible);
+
+        Rod r10 = new Rod();
+        r10.brand = "G Loomis";
+        r10.material = "High Modulus Graphite";
+        r10.length = 6.9;
+        r10.weight = 1.3;
+        r10.usage = "Tournament";
+        r10.isFlexible = true;
+        System.out.println("r10.brand: " + r10.brand);
+        System.out.println("r10.material: " + r10.material);
+        System.out.println("r10.length: " + r10.length);
+        System.out.println("r10.weight: " + r10.weight);
+        System.out.println("r10.usage: " + r10.usage);
+        System.out.println("r10.isFlexible: " + r10.isFlexible);
+    }
+}
