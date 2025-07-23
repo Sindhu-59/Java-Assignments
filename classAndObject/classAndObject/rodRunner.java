@@ -1,4 +1,4 @@
-class RodRunner {
+class rodRunner {
     public static void main(String args[]) {
         System.out.println("Main Started - Rod Collection Display");
 
