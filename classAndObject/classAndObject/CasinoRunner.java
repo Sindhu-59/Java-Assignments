@@ -9,6 +9,11 @@ class CasinoRunner {
         c1.hasHotel = true;
         c1.entryFee = 50.00;
         System.out.println("c1.name: " + c1.name);
+		System.out.println("c1.location: " + c1.location);
+		System.out.println("c1.isOpen24Hours: " + c1.isOpen24Hours);
+		System.out.println("c1.numberOfGames: " + c1.numberOfGames);
+		System.out.println("c1.hasHotel: " + c1.hasHotel);
+		System.out.println("c1.entryFee: " + c1.entryFee);
 
         Casino c2 = new Casino();
         c2.name = "Monte Carlo";

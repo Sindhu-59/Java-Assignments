@@ -9,6 +9,11 @@ class WeaponRunner {
         w1.damage = 80;
         w1.isRanged = false;
         System.out.println("w1.name: " + w1.name);
+		 System.out.println("w1.type: " + w1.type);
+		  System.out.println("w1.material: " + w1.material);
+		   System.out.println("w1.weight: " + w1.weight);
+		    System.out.println("w1.damage: " + w1.damage);
+			 System.out.println("w1.isRanged: " + w1.isRanged);
 
         Weapon w2 = new Weapon();
         w2.name = "AK-47";
@@ -18,6 +23,11 @@ class WeaponRunner {
         w2.damage = 90;
         w2.isRanged = true;
         System.out.println("w2.name: " + w2.name);
+		System.out.println("w1.type: " + w2.type);
+		  System.out.println("w1.material: " + w2.material);
+		   System.out.println("w1.weight: " + w2.weight);
+		    System.out.println("w1.damage: " + w2.damage);
+			 System.out.println("w1.isRanged: " + w2.isRanged);
 
         Weapon w3 = new Weapon();
         w3.name = "Longbow";
@@ -27,6 +37,11 @@ class WeaponRunner {
         w3.damage = 60;
         w3.isRanged = true;
         System.out.println("w3.name: " + w3.name);
+		System.out.println("w1.type: " + w3.type);
+		  System.out.println("w1.material: " + w3.material);
+		   System.out.println("w1.weight: " + w3.weight);
+		    System.out.println("w1.damage: " + w3.damage);
+			 System.out.println("w1.isRanged: " + w3.isRanged);
 
         Weapon w4 = new Weapon();
         w4.name = "Dagger";
@@ -36,6 +51,11 @@ class WeaponRunner {
         w4.damage = 40;
         w4.isRanged = false;
         System.out.println("w4.name: " + w4.name);
+		System.out.println("w1.type: " + w4.type);
+		  System.out.println("w1.material: " + w4.material);
+		   System.out.println("w1.weight: " + w4.weight);
+		    System.out.println("w1.damage: " + w4.damage);
+			 System.out.println("w1.isRanged: " + w4.isRanged);
 
         Weapon w5 = new Weapon();
         w5.name = "Machete";
@@ -45,6 +65,11 @@ class WeaponRunner {
         w5.damage = 70;
         w5.isRanged = false;
         System.out.println("w5.name: " + w5.name);
+		System.out.println("w1.type: " + w5.type);
+		  System.out.println("w1.material: " + w5.material);
+		   System.out.println("w1.weight: " + w5.weight);
+		    System.out.println("w1.damage: " + w5.damage);
+			 System.out.println("w1.isRanged: " + w5.isRanged);
 
         Weapon w6 = new Weapon();
         w6.name = "Crossbow";
@@ -54,6 +79,11 @@ class WeaponRunner {
         w6.damage = 85;
         w6.isRanged = true;
         System.out.println("w6.name: " + w6.name);
+		System.out.println("w1.type: " + w6.type);
+		  System.out.println("w1.material: " + w6.material);
+		   System.out.println("w1.weight: " + w6.weight);
+		    System.out.println("w1.damage: " + w6.damage);
+			 System.out.println("w1.isRanged: " + w6.isRanged);
 
         Weapon w7 = new Weapon();
         w7.name = "Spear";
@@ -63,6 +93,11 @@ class WeaponRunner {
         w7.damage = 65;
         w7.isRanged = false;
         System.out.println("w7.name: " + w7.name);
+		System.out.println("w1.type: " + w7.type);
+		  System.out.println("w1.material: " + w7.material);
+		   System.out.println("w1.weight: " + w7.weight);
+		    System.out.println("w1.damage: " + w7.damage);
+			 System.out.println("w1.isRanged: " + w7.isRanged);
 
         Weapon w8 = new Weapon();
         w8.name = "Throwing Axe";
@@ -72,6 +107,11 @@ class WeaponRunner {
         w8.damage = 75;
         w8.isRanged = true;
         System.out.println("w8.name: " + w8.name);
+		System.out.println("w1.type: " + w8.type);
+		  System.out.println("w1.material: " + w8.material);
+		   System.out.println("w1.weight: " + w8.weight);
+		    System.out.println("w1.damage: " + w8.damage);
+			 System.out.println("w1.isRanged: " + w8.isRanged);
 
         Weapon w9 = new Weapon();
         w9.name = "War Hammer";
@@ -81,6 +121,11 @@ class WeaponRunner {
         w9.damage = 95;
         w9.isRanged = false;
         System.out.println("w9.name: " + w9.name);
+		System.out.println("w1.type: " + w9.type);
+		  System.out.println("w1.material: " + w9.material);
+		   System.out.println("w1.weight: " + w9.weight);
+		    System.out.println("w1.damage: " + w9.damage);
+			 System.out.println("w1.isRanged: " + w9.isRanged);
 
         Weapon w10 = new Weapon();
         w10.name = "Handgun";
@@ -90,6 +135,11 @@ class WeaponRunner {
         w10.damage = 55;
         w10.isRanged = true;
         System.out.println("w10.name: " + w10.name);
+		System.out.println("w1.type: " + w10.type);
+		  System.out.println("w1.material: " + w10.material);
+		   System.out.println("w1.weight: " + w10.weight);
+		    System.out.println("w1.damage: " + w10.damage);
+			 System.out.println("w1.isRanged: " + w10.isRanged);
 
         Weapon w11 = new Weapon();
         w11.name = "Shotgun";
@@ -99,6 +149,11 @@ class WeaponRunner {
         w11.damage = 100;
         w11.isRanged = true;
         System.out.println("w11.name: " + w11.name);
+		System.out.println("w1.type: " + w11.type);
+		  System.out.println("w1.material: " + w11.material);
+		   System.out.println("w1.weight: " + w11.weight);
+		    System.out.println("w1.damage: " + w11.damage);
+			 System.out.println("w1.isRanged: " + w11.isRanged);
 
         Weapon w12 = new Weapon();
         w12.name = "Molotov";
@@ -108,6 +163,11 @@ class WeaponRunner {
         w12.damage = 65;
         w12.isRanged = true;
         System.out.println("w12.name: " + w12.name);
+		System.out.println("w1.type: " + w12.type);
+		  System.out.println("w1.material: " + w12.material);
+		   System.out.println("w1.weight: " + w12.weight);
+		    System.out.println("w1.damage: " + w12.damage);
+			 System.out.println("w1.isRanged: " + w12.isRanged);
 
         Weapon w13 = new Weapon();
         w13.name = "Grenade";
@@ -117,6 +177,11 @@ class WeaponRunner {
         w13.damage = 120;
         w13.isRanged = true;
         System.out.println("w13.name: " + w13.name);
+		System.out.println("w1.type: " + w13.type);
+		  System.out.println("w1.material: " + w13.material);
+		   System.out.println("w1.weight: " + w13.weight);
+		    System.out.println("w1.damage: " + w13.damage);
+			 System.out.println("w1.isRanged: " + w13.isRanged);
 
         Weapon w14 = new Weapon();
         w14.name = "Chainsaw";
@@ -126,6 +191,11 @@ class WeaponRunner {
         w14.damage = 110;
         w14.isRanged = false;
         System.out.println("w14.name: " + w14.name);
+		System.out.println("w1.type: " + w14.type);
+		  System.out.println("w1.material: " + w14.material);
+		   System.out.println("w1.weight: " + w14.weight);
+		    System.out.println("w1.damage: " + w14.damage);
+			 System.out.println("w1.isRanged: " + w14.isRanged);
 
         Weapon w15 = new Weapon();
         w15.name = "Flamethrower";
@@ -135,6 +205,11 @@ class WeaponRunner {
         w15.damage = 130;
         w15.isRanged = true;
         System.out.println("w15.name: " + w15.name);
+		System.out.println("w1.type: " + w15.type);
+		  System.out.println("w1.material: " + w15.material);
+		   System.out.println("w1.weight: " + w15.weight);
+		    System.out.println("w1.damage: " + w15.damage);
+			 System.out.println("w1.isRanged: " + w15.isRanged);
 
         Weapon w16 = new Weapon();
         w16.name = "Taser";
@@ -144,6 +219,11 @@ class WeaponRunner {
         w16.damage = 25;
         w16.isRanged = true;
         System.out.println("w16.name: " + w16.name);
+		System.out.println("w1.type: " + w16.type);
+		  System.out.println("w1.material: " + w16.material);
+		   System.out.println("w1.weight: " + w16.weight);
+		    System.out.println("w1.damage: " + w16.damage);
+			 System.out.println("w1.isRanged: " + w16.isRanged);
 
         Weapon w17 = new Weapon();
         w17.name = "Brass Knuckles";
@@ -153,6 +233,11 @@ class WeaponRunner {
         w17.damage = 35;
         w17.isRanged = false;
         System.out.println("w17.name: " + w17.name);
+		System.out.println("w1.type: " + w17.type);
+		  System.out.println("w1.material: " + w17.material);
+		   System.out.println("w1.weight: " + w17.weight);
+		    System.out.println("w1.damage: " + w17.damage);
+			 System.out.println("w1.isRanged: " + w17.isRanged);
 
         Weapon w18 = new Weapon();
         w18.name = "Whip";
@@ -162,6 +247,11 @@ class WeaponRunner {
         w18.damage = 45;
         w18.isRanged = true;
         System.out.println("w18.name: " + w18.name);
+		System.out.println("w1.type: " + w18.type);
+		  System.out.println("w1.material: " + w18.material);
+		   System.out.println("w1.weight: " + w18.weight);
+		    System.out.println("w1.damage: " + w18.damage);
+			 System.out.println("w1.isRanged: " + w18.isRanged);
 
         Weapon w19 = new Weapon();
         w19.name = "Nunchucks";
@@ -171,6 +261,11 @@ class WeaponRunner {
         w19.damage = 50;
         w19.isRanged = false;
         System.out.println("w19.name: " + w19.name);
+		System.out.println("w1.type: " + w19.type);
+		  System.out.println("w1.material: " + w19.material);
+		   System.out.println("w1.weight: " + w19.weight);
+		    System.out.println("w1.damage: " + w19.damage);
+			 System.out.println("w1.isRanged: " + w19.isRanged);
 
         Weapon w20 = new Weapon();
         w20.name = "Slingshot";
@@ -180,5 +275,10 @@ class WeaponRunner {
         w20.damage = 20;
         w20.isRanged = true;
         System.out.println("w20.name: " + w20.name);
+		System.out.println("w1.type: " + w20.type);
+		  System.out.println("w1.material: " + w20.material);
+		   System.out.println("w1.weight: " + w20.weight);
+		    System.out.println("w1.damage: " + w20.damage);
+			 System.out.println("w1.isRanged: " + w20.isRanged);
     }
 }

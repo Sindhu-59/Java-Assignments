@@ -9,6 +9,11 @@ class HatRunner {
         h1.price = 999.0;
         h1.isAdjustable = true;
         System.out.println("h1.brand: " + h1.brand);
+		System.out.println("h1.color: " + h1.color);
+		System.out.println("h1.type: " + h1.type);
+		System.out.println("h1.size: " + h1.size);
+		System.out.println("h1.price: " + h1.prize);
+		System.out.println("h1.isAdjustable: " + h1.isAdjustable);
 
         Hat h2 = new Hat();
         h2.brand = "Adidas";
@@ -18,6 +23,11 @@ class HatRunner {
         h2.price = 1099.0;
         h2.isAdjustable = true;
         System.out.println("h2.brand: " + h2.brand);
+		System.out.println("h1.color: " + h2.color);
+		System.out.println("h1.type: " + h2.type);
+		System.out.println("h1.size: " + h2.size);
+		System.out.println("h1.price: " + h2.prize);
+		System.out.println("h1.isAdjustable: " + h2.isAdjustable);
 
         Hat h3 = new Hat();
         h3.brand = "Puma";
@@ -27,6 +37,11 @@ class HatRunner {
         h3.price = 499.0;
         h3.isAdjustable = false;
         System.out.println("h3.brand: " + h3.brand);
+		System.out.println("h1.color: " + h3.color);
+		System.out.println("h1.type: " + h3.type);
+		System.out.println("h1.size: " + h3.size);
+		System.out.println("h1.price: " + h3.prize);
+		System.out.println("h1.isAdjustable: " + h3.isAdjustable);
 
         Hat h4 = new Hat();
         h4.brand = "New Era";
@@ -36,6 +51,11 @@ class HatRunner {
         h4.price = 1299.0;
         h4.isAdjustable = true;
         System.out.println("h4.brand: " + h4.brand);
+		System.out.println("h1.color: " + h4.color);
+		System.out.println("h1.type: " + h4.type);
+		System.out.println("h1.size: " + h4.size);
+		System.out.println("h1.price: " + h4.prize);
+		System.out.println("h1.isAdjustable: " + h4.isAdjustable);
 
         Hat h5 = new Hat();
         h5.brand = "Reebok";
@@ -45,6 +65,11 @@ class HatRunner {
         h5.price = 799.0;
         h5.isAdjustable = false;
         System.out.println("h5.brand: " + h5.brand);
+		System.out.println("h1.color: " + h5.color);
+		System.out.println("h1.type: " + h5.type);
+		System.out.println("h1.size: " + h5.size);
+		System.out.println("h1.price: " + h5.prize);
+		System.out.println("h1.isAdjustable: " + h5.isAdjustable);
 
         Hat h6 = new Hat();
         h6.brand = "Under Armour";
@@ -54,6 +79,11 @@ class HatRunner {
         h6.price = 1199.0;
         h6.isAdjustable = true;
         System.out.println("h6.brand: " + h6.brand);
+		System.out.println("h1.color: " + h6.color);
+		System.out.println("h1.type: " + h6.type);
+		System.out.println("h1.size: " + h6.size);
+		System.out.println("h1.price: " + h6.prize);
+		System.out.println("h1.isAdjustable: " + h6.isAdjustable);
 
         Hat h7 = new Hat();
         h7.brand = "Levi's";
@@ -63,6 +93,11 @@ class HatRunner {
         h7.price = 1599.0;
         h7.isAdjustable = false;
         System.out.println("h7.brand: " + h7.brand);
+		System.out.println("h1.color: " + h7.color);
+		System.out.println("h1.type: " + h7.type);
+		System.out.println("h1.size: " + h7.size);
+		System.out.println("h1.price: " + h7.prize);
+		System.out.println("h1.isAdjustable: " + h7.isAdjustable);
 
         Hat h8 = new Hat();
         h8.brand = "H&M";
@@ -72,6 +107,11 @@ class HatRunner {
         h8.price = 899.0;
         h8.isAdjustable = false;
         System.out.println("h8.brand: " + h8.brand);
+		System.out.println("h1.color: " + h8.color);
+		System.out.println("h1.type: " + h8.type);
+		System.out.println("h1.size: " + h8.size);
+		System.out.println("h1.price: " + h8.prize);
+		System.out.println("h1.isAdjustable: " + h8.isAdjustable);
 
         Hat h9 = new Hat();
         h9.brand = "Zara";
@@ -81,6 +121,11 @@ class HatRunner {
         h9.price = 999.0;
         h9.isAdjustable = false;
         System.out.println("h9.brand: " + h9.brand);
+		System.out.println("h1.color: " + h9.color);
+		System.out.println("h1.type: " + h9.type);
+		System.out.println("h1.size: " + h9.size);
+		System.out.println("h1.price: " + h9.prize);
+		System.out.println("h1.isAdjustable: " + h9.isAdjustable);
 
         Hat h10 = new Hat();
         h10.brand = "Gucci";
@@ -90,6 +135,11 @@ class HatRunner {
         h10.price = 3500.0;
         h10.isAdjustable = true;
         System.out.println("h10.brand: " + h10.brand);
+		System.out.println("h1.color: " + h10.color);
+		System.out.println("h1.type: " + h10.type);
+		System.out.println("h1.size: " + h10.size);
+		System.out.println("h1.price: " + h10.prize);
+		System.out.println("h1.isAdjustable: " + h10.isAdjustable);
 
         Hat h11 = new Hat();
         h11.brand = "Prada";
@@ -99,6 +149,11 @@ class HatRunner {
         h11.price = 3200.0;
         h11.isAdjustable = false;
         System.out.println("h11.brand: " + h11.brand);
+		System.out.println("h1.color: " + h11.color);
+		System.out.println("h1.type: " + h11.type);
+		System.out.println("h1.size: " + h11.size);
+		System.out.println("h1.price: " + h11.prize);
+		System.out.println("h1.isAdjustable: " + h11.isAdjustable);
 
         Hat h12 = new Hat();
         h12.brand = "Fila";
@@ -108,6 +163,11 @@ class HatRunner {
         h12.price = 799.0;
         h12.isAdjustable = true;
         System.out.println("h12.brand: " + h12.brand);
+		System.out.println("h1.color: " + h12.color);
+		System.out.println("h1.type: " + h12.type);
+		System.out.println("h1.size: " + h12.size);
+		System.out.println("h1.price: " + h12.prize);
+		System.out.println("h1.isAdjustable: " + h12.isAdjustable);
 
         Hat h13 = new Hat();
         h13.brand = "Supreme";
@@ -117,6 +177,11 @@ class HatRunner {
         h13.price = 2499.0;
         h13.isAdjustable = true;
         System.out.println("h13.brand: " + h13.brand);
+		System.out.println("h1.color: " + h13.color);
+		System.out.println("h1.type: " + h13.type);
+		System.out.println("h1.size: " + h13.size);
+		System.out.println("h1.price: " + h13.prize);
+		System.out.println("h1.isAdjustable: " + h13.isAdjustable);
 
         Hat h14 = new Hat();
         h14.brand = "Tommy Hilfiger";
@@ -126,6 +191,11 @@ class HatRunner {
         h14.price = 1399.0;
         h14.isAdjustable = false;
         System.out.println("h14.brand: " + h14.brand);
+		System.out.println("h1.color: " + h14.color);
+		System.out.println("h1.type: " + h14.type);
+		System.out.println("h1.size: " + h14.size);
+		System.out.println("h1.price: " + h14.prize);
+		System.out.println("h1.isAdjustable: " + h14.isAdjustable);
 
         Hat h15 = new Hat();
         h15.brand = "Lacoste";
@@ -135,6 +205,11 @@ class HatRunner {
         h15.price = 1899.0;
         h15.isAdjustable = false;
         System.out.println("h15.brand: " + h15.brand);
+		System.out.println("h1.color: " + h15.color);
+		System.out.println("h1.type: " + h15.type);
+		System.out.println("h1.size: " + h15.size);
+		System.out.println("h1.price: " + h15.prize);
+		System.out.println("h1.isAdjustable: " + h15.isAdjustable);
 
         Hat h16 = new Hat();
         h16.brand = "Allen Solly";
@@ -144,6 +219,11 @@ class HatRunner {
         h16.price = 399.0;
         h16.isAdjustable = true;
         System.out.println("h16.brand: " + h16.brand);
+		System.out.println("h1.color: " + h16.color);
+		System.out.println("h1.type: " + h16.type);
+		System.out.println("h1.size: " + h16.size);
+		System.out.println("h1.price: " + h16.prize);
+		System.out.println("h1.isAdjustable: " + h16.isAdjustable);
 
         Hat h17 = new Hat();
         h17.brand = "Roadster";
@@ -153,6 +233,11 @@ class HatRunner {
         h17.price = 1099.0;
         h17.isAdjustable = false;
         System.out.println("h17.brand: " + h17.brand);
+		System.out.println("h1.color: " + h17.color);
+		System.out.println("h1.type: " + h17.type);
+		System.out.println("h1.size: " + h17.size);
+		System.out.println("h1.price: " + h17.prize);
+		System.out.println("h1.isAdjustable: " + h17.isAdjustable);
 
         Hat h18 = new Hat();
         h18.brand = "Peter England";
@@ -162,6 +247,11 @@ class HatRunner {
         h18.price = 1699.0;
         h18.isAdjustable = false;
         System.out.println("h18.brand: " + h18.brand);
+		System.out.println("h1.color: " + h18.color);
+		System.out.println("h1.type: " + h18.type);
+		System.out.println("h1.size: " + h18.size);
+		System.out.println("h1.price: " + h18.prize);
+		System.out.println("h1.isAdjustable: " + h18.isAdjustable);
 
         Hat h19 = new Hat();
         h19.brand = "U.S. Polo Assn.";
@@ -171,6 +261,11 @@ class HatRunner {
         h19.price = 1499.0;
         h19.isAdjustable = false;
         System.out.println("h19.brand: " + h19.brand);
+		System.out.println("h1.color: " + h19.color);
+		System.out.println("h1.type: " + h19.type);
+		System.out.println("h1.size: " + h19.size);
+		System.out.println("h1.price: " + h19.prize);
+		System.out.println("h1.isAdjustable: " + h19.isAdjustable);
 
         Hat h20 = new Hat();
         h20.brand = "Superdry";
@@ -180,5 +275,10 @@ class HatRunner {
         h20.price = 999.0;
         h20.isAdjustable = true;
         System.out.println("h20.brand: " + h20.brand);
+		System.out.println("h1.color: " + h20.color);
+		System.out.println("h1.type: " + h20.type);
+		System.out.println("h1.size: " + h20.size);
+		System.out.println("h1.price: " + h20.prize);
+		System.out.println("h1.isAdjustable: " + h20.isAdjustable);
     }
 }

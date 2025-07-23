@@ -37,6 +37,11 @@ class InvitationCardRunner {
         c3.price = 18.0;
         c3.isPrinted = true;
         System.out.println("c3.title: " + c3.title);
+		 System.out.println("c2.color: " + c3.color);
+        System.out.println("c2.occasion: " + c3.occasion);
+        System.out.println("c2.size: " + c3.size);
+        System.out.println("c2.price: " + c3.price);
+        System.out.println("c2.isPrinted: " + c3.isPrinted);
 
         InvitationCard c4 = new InvitationCard();
         c4.title = "Housewarming";
@@ -46,6 +51,11 @@ class InvitationCardRunner {
         c4.price = 25.0;
         c4.isPrinted = true;
         System.out.println("c4.title: " + c4.title);
+		 System.out.println("c2.color: " + c4.color);
+        System.out.println("c2.occasion: " + c4.occasion);
+        System.out.println("c2.size: " + c4.size);
+        System.out.println("c2.price: " + c4.price);
+        System.out.println("c2.isPrinted: " + c4.isPrinted);
 
         InvitationCard c5 = new InvitationCard();
         c5.title = "Anniversary Party";
@@ -55,6 +65,11 @@ class InvitationCardRunner {
         c5.price = 30.0;
         c5.isPrinted = false;
         System.out.println("c5.title: " + c5.title);
+		 System.out.println("c2.color: " + c5.color);
+        System.out.println("c2.occasion: " + c5.occasion);
+        System.out.println("c2.size: " + c5.size);
+        System.out.println("c2.price: " + c5.price);
+        System.out.println("c2.isPrinted: " + c5.isPrinted);
 
         InvitationCard c6 = new InvitationCard();
         c6.title = "Engagement Invite";
@@ -64,6 +79,11 @@ class InvitationCardRunner {
         c6.price = 22.0;
         c6.isPrinted = true;
         System.out.println("c6.title: " + c6.title);
+		 System.out.println("c2.color: " + c6.color);
+        System.out.println("c2.occasion: " + c6.occasion);
+        System.out.println("c2.size: " + c6.size);
+        System.out.println("c2.price: " + c6.price);
+        System.out.println("c2.isPrinted: " + c6.isPrinted);
 
         InvitationCard c7 = new InvitationCard();
         c7.title = "Graduation";
@@ -73,6 +93,11 @@ class InvitationCardRunner {
         c7.price = 19.5;
         c7.isPrinted = true;
         System.out.println("c7.title: " + c7.title);
+		 System.out.println("c2.color: " + c7.color);
+        System.out.println("c2.occasion: " + c7.occasion);
+        System.out.println("c2.size: " + c7.size);
+        System.out.println("c2.price: " + c7.price);
+        System.out.println("c2.isPrinted: " + c7.isPrinted);
 
         InvitationCard c8 = new InvitationCard();
         c8.title = "Retirement Farewell";
@@ -82,6 +107,11 @@ class InvitationCardRunner {
         c8.price = 21.0;
         c8.isPrinted = true;
         System.out.println("c8.title: " + c8.title);
+		 System.out.println("c2.color: " + c8.color);
+        System.out.println("c2.occasion: " + c8.occasion);
+        System.out.println("c2.size: " + c8.size);
+        System.out.println("c2.price: " + c8.price);
+        System.out.println("c2.isPrinted: " + c8.isPrinted);
 
         InvitationCard c9 = new InvitationCard();
         c9.title = "Reception Invite";
@@ -91,6 +121,11 @@ class InvitationCardRunner {
         c9.price = 27.0;
         c9.isPrinted = false;
         System.out.println("c9.title: " + c9.title);
+		 System.out.println("c2.color: " + c9.color);
+        System.out.println("c2.occasion: " + c9.occasion);
+        System.out.println("c2.size: " + c9.size);
+        System.out.println("c2.price: " + c9.price);
+        System.out.println("c2.isPrinted: " + c9.isPrinted);
 
         InvitationCard c10 = new InvitationCard();
         c10.title = "Naming Ceremony";
@@ -100,6 +135,11 @@ class InvitationCardRunner {
         c10.price = 17.0;
         c10.isPrinted = true;
         System.out.println("c10.title: " + c10.title);
+		 System.out.println("c2.color: " + c10.color);
+        System.out.println("c2.occasion: " + c10.occasion);
+        System.out.println("c2.size: " + c10.size);
+        System.out.println("c2.price: " + c10.price);
+        System.out.println("c2.isPrinted: " + c10.isPrinted);
 
         InvitationCard c11 = new InvitationCard();
         c11.title = "Sangeet Night";
@@ -109,6 +149,11 @@ class InvitationCardRunner {
         c11.price = 20.0;
         c11.isPrinted = true;
         System.out.println("c11.title: " + c11.title);
+		 System.out.println("c2.color: " + c11.color);
+        System.out.println("c2.occasion: " + c11.occasion);
+        System.out.println("c2.size: " + c11.size);
+        System.out.println("c2.price: " + c11.price);
+        System.out.println("c2.isPrinted: " + c11.isPrinted);
 
         InvitationCard c12 = new InvitationCard();
         c12.title = "Farewell Party";
@@ -118,6 +163,11 @@ class InvitationCardRunner {
         c12.price = 24.0;
         c12.isPrinted = true;
         System.out.println("c12.title: " + c12.title);
+		 System.out.println("c2.color: " + c12.color);
+        System.out.println("c2.occasion: " + c12.occasion);
+        System.out.println("c2.size: " + c12.size);
+        System.out.println("c2.price: " + c12.price);
+        System.out.println("c2.isPrinted: " + c12.isPrinted);
 
         InvitationCard c13 = new InvitationCard();
         c13.title = "Reunion Party";
@@ -127,6 +177,11 @@ class InvitationCardRunner {
         c13.price = 20.5;
         c13.isPrinted = false;
         System.out.println("c13.title: " + c13.title);
+		 System.out.println("c2.color: " + c13.color);
+        System.out.println("c2.occasion: " + c13.occasion);
+        System.out.println("c2.size: " + c13.size);
+        System.out.println("c2.price: " + c13.price);
+        System.out.println("c2.isPrinted: " + c13.isPrinted);
 
         InvitationCard c14 = new InvitationCard();
         c14.title = "Welcome Party";
@@ -136,6 +191,11 @@ class InvitationCardRunner {
         c14.price = 18.5;
         c14.isPrinted = true;
         System.out.println("c14.title: " + c14.title);
+		 System.out.println("c2.color: " + c14.color);
+        System.out.println("c2.occasion: " + c14.occasion);
+        System.out.println("c2.size: " + c14.size);
+        System.out.println("c2.price: " + c14.price);
+        System.out.println("c2.isPrinted: " + c14.isPrinted);
 
         InvitationCard c15 = new InvitationCard();
         c15.title = "Office Opening";
@@ -145,6 +205,11 @@ class InvitationCardRunner {
         c15.price = 23.0;
         c15.isPrinted = false;
         System.out.println("c15.title: " + c15.title);
+		 System.out.println("c2.color: " + c15.color);
+        System.out.println("c2.occasion: " + c15.occasion);
+        System.out.println("c2.size: " + c15.size);
+        System.out.println("c2.price: " + c15.price);
+        System.out.println("c2.isPrinted: " + c15.isPrinted);
 
         InvitationCard c16 = new InvitationCard();
         c16.title = "Annual Day";
@@ -154,6 +219,11 @@ class InvitationCardRunner {
         c16.price = 16.0;
         c16.isPrinted = true;
         System.out.println("c16.title: " + c16.title);
+		 System.out.println("c2.color: " + c16.color);
+        System.out.println("c2.occasion: " + c16.occasion);
+        System.out.println("c2.size: " + c16.size);
+        System.out.println("c2.price: " + c16.price);
+        System.out.println("c2.isPrinted: " + c16.isPrinted);
 
         InvitationCard c17 = new InvitationCard();
         c17.title = "Sports Day";
@@ -163,6 +233,11 @@ class InvitationCardRunner {
         c17.price = 19.0;
         c17.isPrinted = true;
         System.out.println("c17.title: " + c17.title);
+		 System.out.println("c2.color: " + c17.color);
+        System.out.println("c2.occasion: " + c17.occasion);
+        System.out.println("c2.size: " + c17.size);
+        System.out.println("c2.price: " + c17.price);
+        System.out.println("c2.isPrinted: " + c17.isPrinted);
 
         InvitationCard c18 = new InvitationCard();
         c18.title = "Book Launch";
@@ -172,6 +247,11 @@ class InvitationCardRunner {
         c18.price = 25.5;
         c18.isPrinted = true;
         System.out.println("c18.title: " + c18.title);
+		 System.out.println("c2.color: " + c18.color);
+        System.out.println("c2.occasion: " + c18.occasion);
+        System.out.println("c2.size: " + c18.size);
+        System.out.println("c2.price: " + c18.price);
+        System.out.println("c2.isPrinted: " + c18.isPrinted);
 
         InvitationCard c19 = new InvitationCard();
         c19.title = "Art Exhibition";
@@ -181,6 +261,11 @@ class InvitationCardRunner {
         c19.price = 30.0;
         c19.isPrinted = false;
         System.out.println("c19.title: " + c19.title);
+		 System.out.println("c2.color: " + c19.color);
+        System.out.println("c2.occasion: " + c19.occasion);
+        System.out.println("c2.size: " + c19.size);
+        System.out.println("c2.price: " + c19.price);
+        System.out.println("c2.isPrinted: " + c19.isPrinted);
 
         InvitationCard c20 = new InvitationCard();
         c20.title = "Cultural Night";
@@ -190,5 +275,10 @@ class InvitationCardRunner {
         c20.price = 22.5;
         c20.isPrinted = true;
         System.out.println("c20.title: " + c20.title);
+		 System.out.println("c2.color: " + c20.color);
+        System.out.println("c2.occasion: " + c20.occasion);
+        System.out.println("c2.size: " + c20.size);
+        System.out.println("c2.price: " + c20.price);
+        System.out.println("c2.isPrinted: " + c20.isPrinted);
     }
 }
