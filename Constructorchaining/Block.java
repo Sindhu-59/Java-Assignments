@@ -12,9 +12,10 @@ class Block {
     }
 
     public void getBlockInfo() {
-        System.out.println("Block Name: " + blockName);
+        System.out.println("Block Name  " + blockName);
         System.out.println("Number of Floors: " + floorCount);
         System.out.println("Has Cafeteria: " + hasCafeteria);
         company.getCompanyInfo();
+
     }
 }
